@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 2</title>
+    <style>
+      * {
+        /* border: 1px solid red; */
+      }
+      .container {
+        margin-left: 20px;
+        background-color: antiquewhite;
+        width: 500px;
+        height: 1800px;
+      }
+      .item1 {
+        height: 100px;
+        border: 1px solid black;
+        text-align: center;
+      }
+      .item2 {
+        height: 330px;
+        border: 1px solid black;
+      }
+      .item2 h2 {
+        margin-left: 10px;
+        color: aliceblue;
+        position: absolute;
+        top: 250px;
+      }
+      .item2 button {
+        margin-left: 10px;
+        position: absolute;
+        top: 330px;
+        background-color: rgb(172, 170, 170);
+        border: none;
+      }
+      .item3 {
+        text-align: center;
+        height: 500px;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      .item3 .button{
+        display: flex;
+        justify-content: space-between;
+      }
+      .item3 .image3{
+        position: absolute;
+        
+      }
+      .item4{
+        height: 500px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="item1">
+        <h3>JANE BLOGLIFE</h3>
+        <p style="font-size: 12px">
+          Welcome to my <span style="background-color: gray">website</span>
+        </p>
+      </div>
+      <div class="item2">
+        <img style="width: 500px" src="./P1.jpg" alt="" />
+        <h2>
+          Jane's <br />
+          FASHION BLOG
+        </h2>
+        <button>subcribe</button>
+      </div>
+      <div class="item3">
+        <div>
+          <h4>TITLE HEADING</h4>
+
+
+          <p style="font-size: 12px">VietNam May 2, 2023</p>
+          <img style="height: 200px; width: 300px" src="P1.jpg" alt="" />
+          <p style="margin: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Reprehenderit iure nihil dolores repellat minima quidem minus illo repellendus a nisi!</p>
+           <div class="button">
+             <button>Like</button>
+             <button>Reply</button>
+           </div>
+           <div class="image3" >
+             <img style="width: 50px;" src="seal.png" alt="">
+             <p style="font-size: 10px;">Lorem ipsum dolor sit amet,  adipisicing elit. Non, odit!</p>
+             <p style="font-size: 10px;">Lorem ipsum dolor sit amet,  adipisicing elit. Non, odit!</p>
+           </div>
+        </div>
+
+          <div style="border: 1px solid black">
+            <img style="width: 150px; margin-top: 20px; height: 150px;"  src="P1.jpg" alt="" />
+            <p style="font-size: 10px;position: absolute; top:530px; left: 380px; color: white;" >Lorem ipsum dolor sit amet</p>
+            <ul style="list-style: none;margin: 7px;padding: 0;text-align: left;border: 1px solid black;">
+                <li style="background-color: black;color: white;" >Popular</li>
+                <li><img style="width: 30px; margin: 3px;" src="P1.jpg" alt=""></li>
+                <li><img style="width: 30px; margin: 3px;" src="P1.jpg" alt=""></li>
+                <li><img style="width: 30px; margin: 3px;" src="P1.jpg" alt=""></li>
+            </ul>
+            <ul style="list-style: none;margin: 7px;padding: 0;margin-top: 20px;border: 1px solid black;">
+                <li style="background-color: black; color: white;text-align: left;" >Media</li>
+                <li style="height: 120px;"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+     
+
+    </section>
+  </body>
+</html>
